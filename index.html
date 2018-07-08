@@ -31,16 +31,15 @@
                         <img src="images/logo.png" alt="" class="logo">
                     </a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <div class="icon-button"></div>
+                        <div class="icon-button"></div>
+                        <div class="icon-button"></div>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#header-main">Home</a></li>
-                        <li><a href="#abous-us">Protfolio</a></li>
+                        <li><a href="#protfolio">Protfolio</a></li>
                         <li><a href="#how-we-work">Services</a></li>
                         <li><a href="#article">Team</a></li>
                         <li><a href="#footer">Contact</a></li>
@@ -51,11 +50,15 @@
     </div>
     <div id="fullpage">
       <header class=" active section header-main" id="header-main">
-          <img src="images/headerbg-2.png" alt="" class="header-bg">
+          <!-- <div class="content">
+              <canvas class="scene scene--full" id="scene"></canvas>
+          </div> -->
+          <img src="images/Vector2-2.png" alt="" class="header-bg">
           <div class="header-main-area" id="mouse_move_area">
               <div class="container-fixed">
-                  <div class="header-heading-staff col-md-6">
+                  <div class="header-heading-staff col-md-6 col-sm-6">
                       <!-- <img src="images/textbg.png" alt="" id="main-shape1" class="shape1"> -->
+                      <div class="loader"></div>
                       <div class="heading-area">
                          <h1 id="heading-main">Hello</h1>
                       </div>
@@ -69,11 +72,18 @@
                           <a href="" class="button-project">start a project</a>
                       </div>
                   </div>
-                  <div class="image-area col-md-6" id="image-area">
-                      <img src="images/header-img-ills.png" alt="" class="image1">
+                  <div class="image-area col-md-6 col-sm-6" id="image-area">
+                     <!--  <img src="images/circle_anim3.png" alt="" class="circle">
+                      <img src="images/circle_anim3.png" alt="" class="circle2">
+                      <img src="images/circle_anim3.png" alt="" class="circle3"> -->
+                      <img src="images/laptop_man.png" alt="" class="laptop">
+                      <img src="images/Mobile.png" alt="" class="mobile">
+                      <img src="images/tea.png" alt="" class="tea"> 
+                      <img src="images/calculater.png" alt="" class="calculater">
                   </div>
                   <div class="clearfix"></div>
               </div>
+              <div class="mouse-indicator"></div>
           </div>
       </header>
       <!-- header-ends -->
@@ -92,7 +102,7 @@
                   </p>
               </div>
               <div class="service-area-main">
-                  <div class="col-md-3 no-paddin_lf-rt item_sec_1">
+                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_1">
                       <div class="service-single-content">
                           <div class="img-area">
                               <img class="icon" src="images/discuss.jpg" alt="">
@@ -111,7 +121,7 @@
                           </p> 
                       </div>
                   </div>
-                  <div class="col-md-3 no-paddin_lf-rt item_sec_2">
+                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_2">
                       <div class="service-single-content">
                           <div class="img-area">
                               <img class="icon" src="images/design.jpg" alt="">
@@ -131,7 +141,7 @@
                       </div>
 
                   </div>
-                  <div class="col-md-3 no-paddin_lf-rt item_sec_3">
+                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_3">
                       <div class="service-single-content">
                           <div class="img-area">
                               <img class="icon" src="images/coding.jpg" alt="">
@@ -150,7 +160,7 @@
                           </p> 
                       </div>
                   </div>
-                  <div class="col-md-3 no-paddin_lf-rt item_sec_4">
+                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_4">
                       <div class="service-single-content">
                           <div class="img-area">
                               <img class="icon" src="images/coding.jpg" alt="">
@@ -177,15 +187,15 @@
 
       <!-- our-work -->
 
-      <section class="section protfulio-area" style="background-image: linear-gradient(to right top, #fcfdfd, #f4fcfa, #eefaf4, #ecf8ea, #eef4e0);">
+      <section class="section protfulio-area" id="protfolio" >
           <div class="container-fixed">
               <div class="protfolio-main">
-                  <div class="protfolio-text-area col-md-6">
+                  <div class="protfolio-text-area col-md-6 col-sm-6 ">
                       <h1 class="heading_sec_2">Protfolio</h1>
                       <p class="sec_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab aliquam, distinctio saepe fugiat error consequuntur similique modi vitae, cumque voluptatibus hic. Aut eum saepe eaque eos fugiat neque ratione!</p>
                       <a href="" class="hire-us sec_button">start a project</a>
                   </div>
-                  <div class="protfulio-wrapper one-time col-md-6">
+                  <div class="protfulio-wrapper one-time col-md-6 col-sm-6 ">
                       <div class="protfulio-single-content">
                           <div class="img-area">
                               <img src="images/prot1.png" alt="">
@@ -317,7 +327,7 @@
                   </p>
               </div>
               <div class="service-process-main">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/design.png" alt="" class="icon">
@@ -328,7 +338,7 @@
                           </p>
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/development.png" alt="" class="icon">
@@ -339,7 +349,7 @@
                           </p>
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/ui.png" alt="" class="icon">
@@ -350,7 +360,7 @@
                           </p>
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/responsive.png" alt="" class="icon">
@@ -361,7 +371,7 @@
                           </p>
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/fast.png" alt="" class="icon">
@@ -372,7 +382,7 @@
                           </p>
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4">
                       <div class="service-process-single-content">
                           <div class="img-area">
                               <img src="images/support.png" alt="" class="icon">
@@ -383,6 +393,8 @@
                           </p>
                       </div>
                   </div>
+                  <div class="clearfix"></div>
+                  <div class="empty"></div>
               </div>
           </div>
       </section>
@@ -410,8 +422,9 @@
 
       <section class="section our-team">
           <div class="container-fixed">
+              <div class="emty"></div>
               <div class="team-main">
-                  <div class="team-heading text-center col-md-6 pull-right">
+                  <div class="team-heading text-center col-md-6 col-sm-6 pull-right">
                      <!--  <img src="images/textbg.png" alt="" class="text-bg"> -->
                       <h1 class="heading_sec_3"> Our Team</h1>
                       <p class="sec_text_3">
@@ -419,7 +432,7 @@
                       </p>
                       <a href="" class="hire-us">start a project</a>
                   </div>
-                  <div class="team-main-slider col-md-6 pull-left">
+                  <div class="team-main-slider col-md-6 col-sm-6 pull-left">
                       <div class="team-single-content">
                           <div class="img-area">
                               <img src="images/head.jpg" alt="" class="team-image">
@@ -497,6 +510,7 @@
                       </div>
                   </div>
               </div>
+              <div class="emty"></div>
           </div>
       </section>
 
@@ -559,6 +573,7 @@
     <script src="js/jquery.fullPage.js"></script> 
     <script src="js/scrolloverflow.min.js"></script> 
     <script src="js/particles.js"></script> 
+    <script src="js/TweenMax.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

@@ -1,42 +1,10 @@
 $(document).ready(function(){
-      $('#menu-button').click(function() { 
+    $('.navbar-toggle').click(function() { 
           $(this).toggleClass('active');
-          $('.humberbug').toggleClass('active');
-          $('#menu').toggleClass('open');
-          $('#menu-left').toggleClass('active');
     });
 
 
-    // const tilt = $('.service-single-content').tilt()
-    // tilt.on('change', function(e, transforms){});
 
-
-
-    // $('.center').slick({
-    //   centerMode:true,
-    //   centerPadding: '0px',
-    //   slidesToShow: 4,
-    //   responsive: [
-    //     {
-    //       breakpoint: 768,
-    //       settings: {
-    //         arrows: false,
-    //         centerMode: true,
-    //         centerPadding: '40px',
-    //         slidesToShow: 1
-    //       }
-    //     },
-    //     {
-    //       breakpoint: 480,
-    //       settings: {
-    //         arrows: false,
-    //         centerMode: true,
-    //         centerPadding: '40px',
-    //         slidesToShow: 1
-    //       }
-    //     }
-    //   ]
-    // });
     $('.one-time').slick({
       dots: true,
       infinite: true,
