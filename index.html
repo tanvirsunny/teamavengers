@@ -1,579 +1,409 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Digital Avengers</title>
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/jquery.fullPage.css" rel="stylesheet">
-    <link href="css/slick.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      
+      <!-- custom-css -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto+Condensed:700" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <title>Digital Avengers</title>
   </head>
   <body>
-    <div class="navbar-area">
-        <nav class="navbar">
-            <div class="container-fixed">
-                <div class="navbar-header">
-                    <a class="logo" href="#index.html">
-                        <img src="images/logo.png" alt="" class="logo">
-                    </a>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <div class="icon-button"></div>
-                        <div class="icon-button"></div>
-                        <div class="icon-button"></div>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#header-main">Home</a></li>
-                        <li><a href="#protfolio">Protfolio</a></li>
-                        <li><a href="#how-we-work">Services</a></li>
-                        <li><a href="#article">Team</a></li>
-                        <li><a href="#footer">Contact</a></li>
-                    </ul>
-                </div>
-            </div> 
-        </nav>
-    </div>
-    <div id="fullpage">
-      <header class=" active section header-main" id="header-main">
-          <!-- <div class="content">
-              <canvas class="scene scene--full" id="scene"></canvas>
-          </div> -->
-          <img src="images/Vector2-2.png" alt="" class="header-bg">
-          <div class="header-main-area" id="mouse_move_area">
-              <div class="container-fixed">
-                  <div class="header-heading-staff col-md-6 col-sm-6">
-                      <!-- <img src="images/textbg.png" alt="" id="main-shape1" class="shape1"> -->
-                      <div class="loader"></div>
-                      <div class="heading-area">
-                         <h1 id="heading-main">Hello</h1>
-                      </div>
-                      <div class="heading-area">
-                          <h1 class="mini-heading">
-                              We are "Digital Avengers" <br>
-                              Interested in working with us?
-                          </h1>
-                      </div>
-                      <div class="button-area">
-                          <a href="" class="button-project">start a project</a>
-                      </div>
-                  </div>
-                  <div class="image-area col-md-6 col-sm-6" id="image-area">
-                     <!--  <img src="images/circle_anim3.png" alt="" class="circle">
-                      <img src="images/circle_anim3.png" alt="" class="circle2">
-                      <img src="images/circle_anim3.png" alt="" class="circle3"> -->
-                      <img src="images/laptop_man.png" alt="" class="laptop">
-                      <img src="images/Mobile.png" alt="" class="mobile">
-                      <img src="images/tea.png" alt="" class="tea"> 
-                      <img src="images/calculater.png" alt="" class="calculater">
-                  </div>
-                  <div class="clearfix"></div>
-              </div>
-              <div class="mouse-indicator"></div>
-          </div>
+  <!-- header -->
+      <header class="header_main" id="header_main">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+               <div class="container-nav">
+                   <a class="navbar-brand" href="#">
+                   <h3>digital <span>avengers</span></h3>
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                       <ul class="navbar-nav my-lg-0" id="menu">
+                           <li class="nav-item active">
+                               <a class="nav-link" href="#header">About <span class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                               <a class=" scroll nav-link" href="#service-area">Services</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class=" scroll nav-link" href="#travel">Team</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class=" scroll nav-link" href="#clint-review">Clint</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class=" scroll nav-link" href="#footer-main">Talk to us</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+          </nav>
       </header>
-      <!-- header-ends -->
-
-      <!-- services -->
-      <section class="section services-area">
-          <div id="particles-js"></div>
-          <div class="container-fixed">
-              <div class="service-heading text-center">
-                  <h1 class="heading_sec">
-                      4 Reason to chose us?
-                  </h1>
-                  <p class="process-text">
-                      We work hard everyday to make “ Digital Avengers”
-                      one of the best IT company in the world
-                  </p>
-              </div>
-              <div class="service-area-main">
-                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_1">
-                      <div class="service-single-content">
-                          <div class="img-area">
-                              <img class="icon" src="images/discuss.jpg" alt="">
+      <section class="intro">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7 col-sm-12 no-left-padding">
+                      <div class="intro-left-area">
+                          <div class="heading-mini">
+                              <h3>digital <span>avengres</span></h3>
                           </div>
-                          <div class="content-heading">
-                              <h5 class="number">01</h5>
-                              <h4 >Research & Design</h4>
-                              <i class="fa fa-long-arrow-right"></i>
+                          <div class="heading-moto">
+                              <h1>Digital your dream</h1>
                           </div>
-                          <div class="hover-text">
-                              <h5 class="number">01</h5>
-                              <h4 >Research & Design</h4>
-                          </div>
-                          <p class="text">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum has been
-                          </p> 
-                      </div>
-                  </div>
-                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_2">
-                      <div class="service-single-content">
-                          <div class="img-area">
-                              <img class="icon" src="images/design.jpg" alt="">
-                          </div>
-                          <div class="content-heading">
-                              <h5 class="number">02</h5>
-                              <h4>Development Implemantation</h4>
-                              <i class="fa fa-long-arrow-right"></i>
-                          </div>
-                          <div class="hover-text">
-                              <h5 class="number">02</h5>
-                              <h4>Development Implemantation</h4> 
-                          </div> 
-                          <p class="text">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                          </p>
-                      </div>
-
-                  </div>
-                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_3">
-                      <div class="service-single-content">
-                          <div class="img-area">
-                              <img class="icon" src="images/coding.jpg" alt="">
-                          </div>
-                           <div class="content-heading">
-                              <h5 class="number">03</h5>
-                              <h4>Deliver On given time</h4>
-                              <i class="fa fa-long-arrow-right"></i>
-                          </div>
-                          <div class="hover-text"> 
-                              <h5 class="number">03</h5>
-                              <h4>Deliver On given time</h4>
-                          </div>
-                          <p class="text">  
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                          </p> 
-                      </div>
-                  </div>
-                  <div class="col-md-3 col-sm-3 no-paddin_lf-rt item_sec_4">
-                      <div class="service-single-content">
-                          <div class="img-area">
-                              <img class="icon" src="images/coding.jpg" alt="">
-                          </div>
-                           <div class="content-heading">
-                              <h5 class="number">04</h5>
-                              <h4>Unlimited Support</h4>
-                              <i class="fa fa-long-arrow-right"></i>
-                           </div>
-                          <div class="hover-text">
-                              <h5 class="number">04</h5>
-                              <h4>Unlimited Support</h4> 
-                          </div>
-                           <p class="text">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- services-ends -->
-
-      <!-- our-work -->
-
-      <section class="section protfulio-area" id="protfolio" >
-          <div class="container-fixed">
-              <div class="protfolio-main">
-                  <div class="protfolio-text-area col-md-6 col-sm-6 ">
-                      <h1 class="heading_sec_2">Protfolio</h1>
-                      <p class="sec_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab aliquam, distinctio saepe fugiat error consequuntur similique modi vitae, cumque voluptatibus hic. Aut eum saepe eaque eos fugiat neque ratione!</p>
-                      <a href="" class="hire-us sec_button">start a project</a>
-                  </div>
-                  <div class="protfulio-wrapper one-time col-md-6 col-sm-6 ">
-                      <div class="protfulio-single-content">
-                          <div class="img-area">
-                              <img src="images/prot1.png" alt="">
-                          </div>
-                          <div class="heading-area">
-                              <h1>Medical Guide</h1>
-                              <p class="p-text">
-                                 Brending | Medical
+                          <div class="intro-text">
+                              <p>
+                                  We use strategies, technologies and campaigns <br>to help brands achieve extraordinary things.
                               </p>
                           </div>
-                          <div class="button-area">
-                              <ul>
-                                  <li>
-                                      <a href="" class="screen-shot">screen shot</a>
-                                  </li>
-                                  <li>
-                                      <a href="" class="full-project">full project</a>
-                                  </li>
-                              </ul>
-                          </div>
-                          <div class="hover-effect"></div>
                       </div>
-                      <div class="protfulio-single-content">
-                          <div class="img-area">
-                              <img src="images/prot1.png" alt="">
+                  </div>
+                  <div class="col-md-5 col-sm-12 no-right-padding">
+                      <div class="intro-right-area">
+                          <div class="design-and-develop">
+                              <a href="">Design & Develop</a>
                           </div>
-                          <div class="heading-area">
-                              <h1>Ecommerce SIte</h1>
-                              <p class="p-text">
-                                Brending | Ecommerce
-                              </p>
+                          <div class="digital-marketing align-self-end">
+                              <a href="">Digital Marketing</a>
                           </div>
-                          <div class="button-area">
-                              <ul>
-                                  <li>
-                                      <a href="" class="screen-shot">screen shot</a>
-                                  </li>
-                                  <li>
-                                      <a href="" class="full-project">full project</a>
-                                  </li>
-                              </ul>
-                          </div>
-                          <div class="hover-effect"></div>
-                      </div>
-                      <div class="protfulio-single-content">
-                          <div class="img-area">
-                              <img src="images/prot1.png" alt="">
-                          </div>
-                          <div class="heading-area">
-                              <h1>Ecommerce Site</h1>
-                              <p class="p-text">
-                                  Brending | Ecommerce
-                              </p>
-                          </div>
-                          <div class="button-area">
-                              <ul>
-                                  <li>
-                                      <a href="" class="screen-shot">screen shot</a>
-                                  </li>
-                                  <li>
-                                      <a href="" class="full-project">full project</a>
-                                  </li>
-                              </ul>
-                          </div>
-                          <div class="hover-effect"></div>
-                      </div>
-                      <div class="protfulio-single-content">
-                          <div class="img-area">
-                              <img src="images/prot1.png" alt="">
-                          </div>
-                          <div class="heading-area">
-                              <h1>Photography Website</h1>
-                              <p class="p-text">
-                                Brending | Photography
-                              </p>
-                          </div>
-                          <div class="button-area">
-                              <ul>
-                                  <li>
-                                      <a href="" class="screen-shot">screen shot</a>
-                                  </li>
-                                  <li>
-                                      <a href="" class="full-project">full project</a>
-                                  </li>
-                              </ul>
-                          </div>
-                          <div class="hover-effect"></div>
                       </div>
                   </div>
                   <div class="clearfix"></div>
               </div>
           </div>
       </section>
-
-      <!-- work-ends -->
-    
-      <!-- our-process -->
-
-      <!-- <section class="section our-process">
-          <div class="container-fixed">
-              <div class="process-heading-area">
-                  <h1 class="process-heading">Our Process</h1>
+      <!-- about-us -->
+      <section class="about-us">
+          <div class="container">
+              <div class="heading-area">
+                  <h1>What we do?</h1>
+                  <h3>We tried best to setisfied clint</h3>
               </div>
-              <div class="process-main">
-                  <ul>
-                      <li><h4>Hello</h4></li>
-                      <li><h4>Research</h4></li>
-                      <li><h4>UI/UX</h4></li>
-                      <li><h4>WEB DESIGN</h4></li>
-                      <li><h4>FRONT END</h4></li>
-                      <li><h4>BACK END</h4></li>
-                      <li><h4>Maintanence</h4></li>
-                  </ul>
+              <div class="row about-us-top">
+                  <div class="col-md-6 col-sm-12 no-left-padding">
+                      <div class="design-dev-area">
+                          <div class="icon-area">
+                              <img src="images/html.png" alt="" class="icon">
+                          </div>
+                          <div class="text-area">
+                              <h3 class="heading">Design & Develop</h3>
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed quae temporibus placeat voluptatum! Doloribus fuga et molestias eum
+                              </p>
+                              <a href="" class="readmore">read more</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <div class="digital-marketing-area">
+                          <div class="icon-area">
+                              <img src="images/digital-marketing.png" alt="" class="icon">
+                          </div>
+                          <div class="text-area">
+                              <h3 class="heading">Digital Marketing</h3>
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed quae temporibus placeat voluptatum! Doloribus fuga et molestias eum
+                              </p>
+                              <a href="" class="readmore">read more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                      <div class="about-us-right-content">
+                          <h3>dont waste your time</h3>
+                          <a class="readmore" href="">talk to us now</a>
+                      </div>
+                  </div>
+                  <div class="col-md-8 col-sm-12 no-left-padding">
+                      <div class="about-us-img-area" style="background: url(images/about-img2.jpg); background-size: cover;background-position: center;">
+                      </div>
+                  </div>
               </div>
           </div>
       </section>
-     -->
+      <section class="empty"></section>
 
-<!-- process-ends -->
 
-<!-- service-process -->
-    
-      <section class="section our-service-process">
-          <div class="container-fixed">
-              <div class="heading-area text-center">
-                  <h1 class="service-process-heading">Our Services</h1>
-                  <p class="service-process-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nisi cupiditate unde distinctio amet quod consequatur.
-                  </p>
+      <!-- why-us -->
+
+      <section class="why-us">  
+          <div class="container">
+              <div class="heading-area">
+                  <h1>Why you should hire us?</h1>
+              </div>  
+          </div>
+          <div class="why-us-main">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-4 col-sm-12 no-left-padding">
+                          <div class="why-us-single-content">
+                              <h2>Agility</h2>
+                              <p>We’re flexible, resourceful, and adapt quickly to drive commercial success.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                          <div class="why-us-single-content">
+                              <h2>Insight</h2>
+                              <p>We’re flexible, resourceful, and adapt quickly to drive commercial success.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12 no-right-padding">
+                          <div class="why-us-single-content">
+                              <h2>Transparency</h2>
+                              <p>We’re flexible, resourceful, and adapt quickly to drive commercial success.</p>
+                          </div>
+                      </div>
+                  </div>
               </div>
-              <div class="service-process-main">
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/design.png" alt="" class="icon">
-                          </div>
-                          <h4>Great Design</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
+          </div>
+      </section>
+
+      <!-- how-we-work -->
+      <section class="how-we-work-area">
+          <div class="container">
+              <div class="heading-area">
+                  <h1>How we work</h1>
+              </div>
+              <div class="how-we-work-main">
+                  <div class="how-we-work-single-content">
+                      <div class="direction">
+                          <svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64">
+                            <g>
+                              <path fill="#1D1D1B" d="m63.386,16.193l.002-.002c0.002-0.003 0.004-0.006 0.006-0.01 0.172-0.195 0.298-0.43 0.399-0.678 0.032-0.076 0.053-0.148 0.076-0.225 0.058-0.191 0.094-0.389 0.106-0.596 0.006-0.076 0.018-0.148 0.016-0.226 0-0.04 0.01-0.076 0.008-0.115-0.014-0.239-0.062-0.47-0.136-0.687-0.006-0.023-0.022-0.041-0.03-0.064-0.088-0.239-0.214-0.451-0.363-0.645-0.021-0.027-0.028-0.063-0.05-0.09l-10.311-12.146c-0.789-0.93-2.084-0.948-2.894-0.037-0.808,0.91-0.823,2.402-0.032,3.334l5.558,6.549c-8.121-1.076-16.104,0.633-16.481,0.717-24.646,4.467-42.087,27.227-38.88,50.736 0.159,1.164 1.028,1.992 2.019,1.992 0.106,0 0.212-0.009 0.32-0.027 1.116-0.203 1.878-1.409 1.704-2.696-2.857-20.94 13.056-41.282 35.537-45.358 0.103-0.024 8.351-1.794 16.117-0.574l-8.577,5.093c-1.005,0.598-1.398,2.02-0.881,3.177 0.516,1.159 1.748,1.608 2.756,1.017l13.52-8.028c0.183-0.111 0.347-0.25 0.491-0.411z"/>
+                            </g>
+                          </svg>
                       </div>
+                      <h3>Strategy</h3>
+                      <p>
+                          Every campaign begins with research and planning. Using data from our enterprise-level search tools, we uncover the insights that will drive your online success
+                      </p>
                   </div>
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/development.png" alt="" class="icon">
-                          </div>
-                          <h4>Development</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor  elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
-                      </div>
+                  <div class="how-we-work-single-content content-2 justify-content-end">
+                    <!--    <div class="direction">
+                          <svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64">
+                            <g>
+                              <path fill="#1D1D1B" d="m63.386,16.193l.002-.002c0.002-0.003 0.004-0.006 0.006-0.01 0.172-0.195 0.298-0.43 0.399-0.678 0.032-0.076 0.053-0.148 0.076-0.225 0.058-0.191 0.094-0.389 0.106-0.596 0.006-0.076 0.018-0.148 0.016-0.226 0-0.04 0.01-0.076 0.008-0.115-0.014-0.239-0.062-0.47-0.136-0.687-0.006-0.023-0.022-0.041-0.03-0.064-0.088-0.239-0.214-0.451-0.363-0.645-0.021-0.027-0.028-0.063-0.05-0.09l-10.311-12.146c-0.789-0.93-2.084-0.948-2.894-0.037-0.808,0.91-0.823,2.402-0.032,3.334l5.558,6.549c-8.121-1.076-16.104,0.633-16.481,0.717-24.646,4.467-42.087,27.227-38.88,50.736 0.159,1.164 1.028,1.992 2.019,1.992 0.106,0 0.212-0.009 0.32-0.027 1.116-0.203 1.878-1.409 1.704-2.696-2.857-20.94 13.056-41.282 35.537-45.358 0.103-0.024 8.351-1.794 16.117-0.574l-8.577,5.093c-1.005,0.598-1.398,2.02-0.881,3.177 0.516,1.159 1.748,1.608 2.756,1.017l13.52-8.028c0.183-0.111 0.347-0.25 0.491-0.411z"/>
+                            </g>
+                          </svg>
+                      </div> -->
+                      <h3>Measurement</h3>
+                      <p>
+                          Our monthly reports are clear, transparent, and tailored to what’s relevant to you. All our activity is tied to your goals, targets and KPIs, and when we discuss your progress each month, we’ll explain how our actions have helped you move closer to your objectives, as well as sharing any new strategic opportunities
+                      </p>
                   </div>
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/ui.png" alt="" class="icon">
-                          </div>
-                          <h4>UI & UX</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor     elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
+                  <div class="how-we-work-single-content content-3">
+                       <div class="direction">
+                          <svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64">
+                            <g>
+                              <path fill="#1D1D1B" d="m63.386,16.193l.002-.002c0.002-0.003 0.004-0.006 0.006-0.01 0.172-0.195 0.298-0.43 0.399-0.678 0.032-0.076 0.053-0.148 0.076-0.225 0.058-0.191 0.094-0.389 0.106-0.596 0.006-0.076 0.018-0.148 0.016-0.226 0-0.04 0.01-0.076 0.008-0.115-0.014-0.239-0.062-0.47-0.136-0.687-0.006-0.023-0.022-0.041-0.03-0.064-0.088-0.239-0.214-0.451-0.363-0.645-0.021-0.027-0.028-0.063-0.05-0.09l-10.311-12.146c-0.789-0.93-2.084-0.948-2.894-0.037-0.808,0.91-0.823,2.402-0.032,3.334l5.558,6.549c-8.121-1.076-16.104,0.633-16.481,0.717-24.646,4.467-42.087,27.227-38.88,50.736 0.159,1.164 1.028,1.992 2.019,1.992 0.106,0 0.212-0.009 0.32-0.027 1.116-0.203 1.878-1.409 1.704-2.696-2.857-20.94 13.056-41.282 35.537-45.358 0.103-0.024 8.351-1.794 16.117-0.574l-8.577,5.093c-1.005,0.598-1.398,2.02-0.881,3.177 0.516,1.159 1.748,1.608 2.756,1.017l13.52-8.028c0.183-0.111 0.347-0.25 0.491-0.411z"/>
+                            </g>
+                          </svg>
                       </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/responsive.png" alt="" class="icon">
-                          </div>
-                          <h4>Fully Responsive</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor     elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/fast.png" alt="" class="icon">
-                          </div>
-                          <h4>Fast Work</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor    elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4">
-                      <div class="service-process-single-content">
-                          <div class="img-area">
-                              <img src="images/support.png" alt="" class="icon">
-                          </div>
-                          <h4>Trusted Support</h4>
-                          <p> 
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos, eius tenetur maiores minus dolor   elit. Non eos, eius tenetur maiores minus dolor
-                          </p>
-                      </div>
+                      <h3>Implementation</h3>
+                      <p>
+                          While we plan ahead, we’re also flexible and take advantage of new opportunities as we identify them. Our agile, data- driven approach means we’re always focused on the things that will actually move the needle, and can adjust to support any new campaigns. As we work throughout the month, we’ll keep in touch, updating you on our progress.
+                      </p>
                   </div>
                   <div class="clearfix"></div>
-                  <div class="empty"></div>
-              </div>
+              </div>  
           </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-<!-- service-process-ends -->
 
       <!-- team -->
-
-      <section class="section our-team">
-          <div class="container-fixed">
-              <div class="emty"></div>
-              <div class="team-main">
-                  <div class="team-heading text-center col-md-6 col-sm-6 pull-right">
-                     <!--  <img src="images/textbg.png" alt="" class="text-bg"> -->
-                      <h1 class="heading_sec_3"> Our Team</h1>
-                      <p class="sec_text_3">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda id a, quaerat magnam blanditiis quisquam quod similique. Ex necessitatibus fugit amet. Sequi maiores nostrum alias adipisci sed illo quae.
-                      </p>
-                      <a href="" class="hire-us">start a project</a>
-                  </div>
-                  <div class="team-main-slider col-md-6 col-sm-6 pull-left">
-                      <div class="team-single-content">
-                          <div class="img-area">
-                              <img src="images/head.jpg" alt="" class="team-image">
-                              <img src="images/imagebg.png" alt="" class="image-bg">
-                          </div>
-                          <ul class="social-icon">
-                              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                          </ul>
-                          <div class="text-area">
-                              <h3 class="name">Lukman Nakib</h3>
-                              <h4 class="Post">Web Developer</h4>
-                          </div>
-                      </div>
-                      <div class="team-single-content">
-                          <div class="img-area">
-                              <img src="images/rahat.jpg" alt="" class="team-image">
-                              <img src="images/imagebg.png" alt="" class="image-bg">
-                          </div>
-                          <ul class="social-icon">
-                              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                          </ul>
-                          <div class="text-area">
-                              <h3 class="name">Rahat Baksh</h3>
-                              <h4 class="Post">Web Developer</h4>
-                          </div>
-                      </div>
-                      <div class="team-single-content">
-                          <div class="img-area">
-                              <img src="images/korbabu.jpg" alt="" class="team-image">
-                              <img src="images/imagebg.png" alt="" class="image-bg">
-                          </div>
-                          <ul class="social-icon">
-                              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                          </ul>
-                          <div class="text-area">
-                              <h3 class="name">Shuvo Kor</h3>
-                              <h4 class="Post">Web Designer</h4>
-                          </div>
-                      </div>
-                      <div class="team-single-content">
-                          <div class="img-area">
-                              <img src="images/sunny.jpeg" alt="" class="team-image">
-                              <img src="images/imagebg.png" alt="" class="image-bg">
-                          </div>
-                          <ul class="social-icon">
-                              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                          </ul>
-                          <div class="text-area">
-                              <h3 class="name">Sunny Ahmed</h3>
-                              <h4 class="Post">Web Developer</h4>
-                          </div>
-                      </div>
-                      <div class="team-single-content">
-                          <div class="img-area">
-                              <img src="images/mahfuf.jpg" alt="" class="team-image">
-                              <img src="images/imagebg.png" alt="" class="image-bg">
-                          </div>
-                          <ul class="social-icon">
-                              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                          </ul>
-                          <div class="text-area">
-                              <h3 class="name">Mahfuzur Rahman</h3>
-                              <h4 class="Post">Web Developer</h4>
-                          </div>
-                      </div>
-                  </div>
+      <section class="team">
+          <div class="container">
+              <div class="heading-area">
+                  <h1>Meet our team</h1>
               </div>
-              <div class="emty"></div>
-          </div>
-      </section>
-
-      <!-- team-ends -->
-
-      <!-- start a project -->
-
-      <section class="section contact-us" style="background: url(images/contactbg.jpg);">
-          <div class="container-fixed">
-              <div class="text-area">
-                  <h1 class="heading_sec_4">Get in Touch</h1>
-                  <!-- <img src="images/textbg.png" alt=""> -->
+              <div class="team-text">
+                  <p>We do work hard for your satisfaction</p>
               </div>
-              <div class="contact-us-main">
-                  <div class="col-md-4 contact-us-left">
-                      <h4>Contact</h4>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quis mollitia ipsa? Eaque, culpa, facilis.
-                      </p>
-                      <h4 class="email">digital_avengers@gmail.com</h4>
-                      <h4 class="phone">+8801722089739</h4>
+              <div class="row">
+                  <div class="col-md-4 col-sm-12 no-left-padding">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Lukman Nakib</h3>
+                                <h5 class="post">Back end web developer</h5>
+                            </div>
+                      </div>
                   </div>
-                  <div class="col-md-8 contact-us-right">
-                      <div class="col-md-4 form-left">
-                          <form action="">
-                              <div class="form-group">
-                                  <input  type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                              </div>
-                              <div class="form-group">
-                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                              </div>
-                          </form>
+                  <div class="col-md-4 col-sm-12">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Rahat Baksh</h3>
+                                <h5 class="post">Back end web developer</h5>
+                            </div>
                       </div>
-                      <div class="col-md-8 form-right">
-                           <form action="">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                           </form>
+                  </div>
+                  <div class="col-md-4 col-sm-12 no-right-padding">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Shuvo Kor</h3>
+                                <h5 class="post"> Web Desiger</h5>
+                            </div>
                       </div>
-                      <div class="clearfix"></div>
-                      <div class="button-area">
-                          <button class="send-button">Send</button>
+                  </div>
+                  <div class="col-md-4 col-sm-12 no-left-padding">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Tanvir Sunny</h3>
+                                <h5 class="post"> Front end web developer</h5>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Abhi Ahmed</h3>
+                                <h5 class="post"> Digital marketing head</h5>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 no-right-padding">
+                      <div class="team-single-content" style="background: url(images/team3.jpg); background-size: cover;background-position: center;">
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <div class="team-details">
+                                <h3 class="name">Panna Ahmed</h3>
+                                <h5 class="post">Software developer</h5>
+                            </div>
                       </div>
                   </div>
                   <div class="clearfix"></div>
               </div>
           </div>
       </section>
-    </div>
+      <section class="empty"></section>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/tilt.jquery.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/slick.min.js"></script> 
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/jquery.fullPage.js"></script> 
-    <script src="js/scrolloverflow.min.js"></script> 
-    <script src="js/particles.js"></script> 
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/custom.js"></script>
+      <!-- talk to us -->
+
+      <section class="talk-to-us">
+          <div class="container">
+              <div class="heading-area">
+                  <h1>Lets start a project</h1>
+              </div>
+              <form action="">
+                   <div class="row">
+                        <div class="col-md-6 col-sm-12 no-left-padding">
+                            <div class="form-group">
+                                <label for="name">Your name</label>
+                                <input type="text" placeholder="type your name" class="form-control" id="name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 no-right-padding">
+                            <div class="form-group">
+                                <label for="email">Your email</label>
+                                <input type="text" placeholder="type your email" class="form-control" id="email">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 no-left-padding">
+                            <div class="form-group">
+                                <label for="project-name">Your project</label>
+                                <input type="text" placeholder="type your project name" class="form-control" id="project">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 no-right-padding">
+                            <div class="form-group">
+                                <label for="email">Your budget</label>
+                                <input type="text" placeholder="tell us your budget" class="form-control" id="budget">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 no-left-padding no-right-padding">
+                            <div class="form-group">
+                                <label for="email">Project description</label>
+                                <textarea class="form-control" rows="5" id="text"></textarea>
+                            </div>
+                        </div>
+                   </div>
+              </form>
+              <div class="footer">
+                  <div class="footer-main">
+                      <div class="row">
+                          <div class="col-md-3 col-sm-12">
+                              <div class="logo-area">
+                                  <h3>digital <span>avengers</span></h3>
+                                  <ul class="social-icon-area">
+                                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-3 col-sm-12">
+                              <div class="contact-location">
+                                  <p class="email">hello@digitalavengers.com</p>
+                                  <p class="number">+8801722089739</p>
+                                  <p class="location">Zindabazar,Sylhet</p>
+                              </div>
+                          </div>
+                          <div class="col-md-3 col-sm-12">
+                              <div class="navigation">
+                                  <ul class="menu-footer">
+                                      <li><a href="">Home</a></li>
+                                      <li><a href="">About us</a></li>
+                                      <li><a href="">Why us</a></li>
+                                      <li><a href="">How we work</a></li>
+                                      <li><a href="">Talk to us</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-3 col-sm-12">
+                              <div class="navigation">
+                                  <ul class="menu-footer">
+                                      <li><a href="">Design & Develop</a></li>
+                                      <li><a href="">Digital Marketing</a></li>
+                                      <li><a href="">Terms & Condition</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
